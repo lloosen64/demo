@@ -30,5 +30,6 @@ jobs:
     - name: Run a multi-line script
       run: |
         sudo swapoff -a
+        sudo rm -rf /swapfile
         ls -al /
         df -hT
